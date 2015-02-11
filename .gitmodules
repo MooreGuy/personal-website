@@ -1,0 +1,6 @@
+[submodule "saltyphp"]
+	path = saltyphp
+	url = git@github.com:MooreGuy/saltyphp
+[submodule "bootstrap"]
+	path = bootstrap
+	url = git@github.com:twbs/bootstrap
