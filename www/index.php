@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = '../CodeIgniter-2.2-stable/system';
+	$system_path = '../system';
 
 /*
  *---------------------------------------------------------------
@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = '../CodeIgniter-2.2-stable/application';
+	$application_folder = '../application';
 
 /*
  * --------------------------------------------------------------------
