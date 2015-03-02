@@ -1,6 +1,6 @@
 <div class="container" >
     
-    <div class="jumbotron
+    <div class="jumbotron">
         <h1>Guy Moore</h1>
         <p class="lead">
             
