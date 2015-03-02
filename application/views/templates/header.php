@@ -8,3 +8,21 @@
 
 			<!-- Bootstrap -->
 			<link href="css/bootstrap.min.css" rel="stylesheet">
+		</head>
+
+		<body>
+			
+			<div class="header">
+
+				<nav>
+		
+					<ul class="nav nav-pills">
+						
+						<li role="presentation" >Info</li>
+						<li role="Presentation" >Contact</li>
+						
+					</ul>
+					
+				</nav>
+			
+			</div> <!-- end header -->
