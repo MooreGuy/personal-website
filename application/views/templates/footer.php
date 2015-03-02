@@ -1,8 +1,10 @@
 
-	<hr>
-	<footer
+		<hr>
+		<footer
 
-		<p> &copy Guy Moore 2015 </p>	
+			<p> &copy Guy Moore 2015 </p>	
 
-	</footer
+		</footer
+
+	</body>
 </html>
