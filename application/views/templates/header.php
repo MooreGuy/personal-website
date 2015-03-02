@@ -12,17 +12,19 @@
 
 		<body>
 			
-			<div class="header">
-
-				<nav>
-		
-					<ul class="nav nav-pills">
-						
-						<li role="presentation" >Info</li>
-						<li role="Presentation" >Contact</li>
-						
-					</ul>
-					
-				</nav>
+			<div calss="container">
 			
-			</div> <!-- end header -->
+				<div class="header">
+
+					<nav>
+			
+						<ul class="nav nav-pills">
+							
+							<li role="presentation" >Info</li>
+							<li role="Presentation" >Contact</li>
+							
+						</ul>
+						
+					</nav>
+				
+				</div> <!-- end header -->
