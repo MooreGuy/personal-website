@@ -36,8 +36,8 @@ $this->load->helper('url');
 						</div>
 
 						<ul class="nav navbar-nav pull-right">
-							<li role="presentation" ><a href="#">Info</a></li>
-							<li role="Presentation" ><a href="#">Contact</a></li>
+							<li role="presentation" ><a href="<?php echo base_url();?>home/index">Info</a></li>
+							<li role="Presentation" ><a href="<?php echo base_url();?>home/contact">Contact</a></li>
 						</ul>		
 
 				</nav>	
