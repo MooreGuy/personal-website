@@ -6,7 +6,7 @@
 
 	</p>
 
-	<button class="btn btn-lg btn-success" href="#" role="button">Hire Me</button>
+	<a href="<?php echo base_url() ?>home/contact"><button class="btn btn-lg btn-success"  role="button">Hire Me</button></a>
 </div><!-- end jumbotron -->
 
 <div class="row projectlinks" >

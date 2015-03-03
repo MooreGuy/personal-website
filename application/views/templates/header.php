@@ -32,7 +32,7 @@ $this->load->helper('url');
 				<nav class="navbar navbar-default">	
 
 						<div class="navbar-header">	
-							<a href="#" class="navbar-brand">Guy Moore</a>		
+							<a href="<?php echo base_url();?>" class="navbar-brand">Guy Moore</a>		
 						</div>
 
 						<ul class="nav navbar-nav pull-right">
