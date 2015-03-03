@@ -1,3 +1,12 @@
+<?php
+
+/*
+	Load the url helper to help load css.
+*/
+$this->load->helper('url');
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,9 +15,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title><?php echo $title;?> | Guy Moore</title>
 
+		<!--Fontawesome -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">	
+
 		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/personalSite.css" rel="stylesheet">	
+		<link href="<? echo base_url(); ?>css/bootstrap.min.css" rel="stylesheet">
+		<link href="<? echo base_url(); ?>css/personalSite.css" rel="stylesheet">	
 	</head>
 
 	<body>
