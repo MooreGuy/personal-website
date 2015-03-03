@@ -8,7 +8,7 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="jumbotron-narrow.css" rel="stylesheet">	
+		<link href="css/personalSite.css" rel="stylesheet">	
 	</head>
 
 	<body>
