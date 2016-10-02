@@ -1,0 +1,8 @@
+[package]
+name = "personal-site"
+version = "0.1.0"
+authors = ["Guy Moore <guy.moore.normal@gmail.com>"]
+
+[dependencies]
+[dependencies.iron]
+version = "*"
