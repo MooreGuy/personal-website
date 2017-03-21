@@ -4,5 +4,8 @@ version = "0.1.0"
 authors = ["Guy Moore <guy.moore.normal@gmail.com>"]
 
 [dependencies]
+staticfile = "*"
+router = "*"
+mount = "*"
 [dependencies.iron]
 version = "*"
