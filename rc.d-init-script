@@ -1,0 +1,11 @@
+#!/bin/sh
+
+. /etc/rc.subr
+
+name="personal-website"
+desc="personal website server"
+rcvar="personal_website_enable"
+command="/usr/local/bin/${name}"
+pidfile="/var/run/${name}.pid"
+
+run_rc_command
