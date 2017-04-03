@@ -2,10 +2,13 @@
 
 . /etc/rc.subr
 
-name="personal-website"
+name="website"
 desc="personal website server"
 rcvar="personal_website_enable"
-command="/usr/local/bin/${name}"
-pidfile="/var/run/${name}.pid"
+logs="/var/run/website/info.log"
+err="/var/run/website/error.log"
+command="/usr/local/bin/website"
+pidfile="/var/run/website/website.pid"
 
-run_rc_command
+load_rc_config "website"
+run_rc_command "$1"
