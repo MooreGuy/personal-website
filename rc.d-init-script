@@ -2,13 +2,13 @@
 
 . /etc/rc.subr
 
-name="website"
+name="personal-website"
 desc="personal website server"
 rcvar="personal_website_enable"
-logs="/var/run/website/info.log"
-err="/var/run/website/error.log"
-command="/usr/local/bin/website"
-pidfile="/var/run/website/website.pid"
 
-load_rc_config "website"
+pidfile="/var/run/personal-website/pid"
+lockfile="/var/run/personal-website/lock"
+command="/home/freebsd/personal-website/start.sh"
+
+load_rc_config "personal-website"
 run_rc_command "$1"

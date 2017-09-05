@@ -1,0 +1,1 @@
+/usr/local/bin/daemonize -c /home/freebsd/personal-website -e /var/run/personal-website/error.log -o /var/run/personal-website/standard.log -p /var/run/personal-website/pid -l /var/run/personal-website/lock /home/freebsd/personal-website/personal-website
