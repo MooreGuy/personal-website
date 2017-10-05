@@ -24,6 +24,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MooreNormal
 github_username:  MooreGuy
 
+employment_title: Software Engineer
+employer_link: https://www.ifixit.com
+my_name: Guy Moore
+
 # Build settings
 markdown: kramdown
 plugins:

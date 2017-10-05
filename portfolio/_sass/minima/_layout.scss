@@ -4,10 +4,22 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+}
 
-  // Positioning context for the mobile navigation icon
-  position: relative;
+.site-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    
+    .right-header, .left-header, svg {
+        display: inline-block;
+    }
+
+    .right-header, .left-header, svg {
+        flex-grow: 1;
+    }
+
 }
 
 .site-title {
@@ -16,7 +28,6 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
 
   &,
   &:visited {
@@ -25,7 +36,6 @@
 }
 
 .site-nav {
-  float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -99,8 +109,6 @@
     }
   }
 }
-
-
 
 /**
  * Site footer
