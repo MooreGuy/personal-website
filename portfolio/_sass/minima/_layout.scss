@@ -2,22 +2,35 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 3px solid $grey-color-dark;
 }
 
 .site-header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+	flex-align: center;
+	justify-content: center;
 
-    
-    .right-header, .left-header, svg {
-        display: inline-block;
+	svg {
+		margin-bottom: -30px;
+		margin-top: 30px;
+	}
+
+    .right-header, .left-header {
+		width: 200px;
+		text-align: center;
     }
 
     .right-header, .left-header, svg {
         flex-grow: 1;
+        display: inline-block;
+    }
+
+    .right-header, .left-header {
+        border-bottom: 1px solid #000;
+        padding: 20px 40px 20px 40px;
+		margin: 0 40px 0 40px;
     }
 
 }
