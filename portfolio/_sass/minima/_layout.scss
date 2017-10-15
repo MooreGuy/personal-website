@@ -35,6 +35,39 @@
 
 }
 
+.home {
+	ul {
+		list-style: none;
+
+		justify-content: center;
+		display: flex;
+	}
+
+    .links a {
+        color: $text-color;
+		text-decoration: none;
+		font-family: $heading-font-family, cursive;
+		
+    }
+
+    li {
+        margin: 50px 50px 50px 50px;
+
+		.line {
+			width: 10px;
+			height: 1px;
+			color: black;
+		}
+
+		&:hover > .line {
+			width: 50px;
+			transition: right 0.7s ease-in-out,width 0.7s ease-in-out;	
+		}
+    }
+
+}
+
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
