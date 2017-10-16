@@ -1,3 +1,6 @@
 [submodule "saltyphp"]
 	path = saltyphp
 	url = git@github.com:MooreGuy/saltyphp
+[submodule "portfolio/assets/three.js"]
+	path = portfolio/assets/three.js
+	url = https://github.com/mrdoob/three.js.git
