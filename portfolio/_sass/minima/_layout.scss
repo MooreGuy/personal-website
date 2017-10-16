@@ -67,6 +67,10 @@
 
 }
 
+canvas#decision-cube {
+	width: auto;
+}
+
 
 .site-title {
   @include relative-font-size(1.625);
