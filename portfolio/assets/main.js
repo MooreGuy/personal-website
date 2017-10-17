@@ -24,9 +24,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
+
     var controls = new THREE.OrbitControls(camera, renderer.domElement);
 
-    camera.position.z = 5;
+    camera.position.z = 0;
 
     var animate = function () {
         requestAnimationFrame( animate );
