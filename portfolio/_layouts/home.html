@@ -3,19 +3,9 @@ layout: default
 ---
 
 <div class="home">
-
-  {{ content }}
-
+    {{ content }}
     <canvas width="740px" height="600px" id="decision-cube"></canvas>
-
-    <ul class="links">
-        <li><a href="/about">About</a><div class="line"></div></li>
-        <li><a href="/faq.html">FAQ</a><div class="line"></div></li>
-        <li><a href="/posts.html">Posts</a><div class="line"></div></li>
-        <li><a href="/projects.html">Projects</a><div class="line"></div></li>
-        <li><a href="/assets/resume.pdf" target="_">Resume</a><div class="line"></div></li>
-    </ul>
-
+    {% include nav.html %}
 </div> 
 
 <script src="/assets/main.js"></script>

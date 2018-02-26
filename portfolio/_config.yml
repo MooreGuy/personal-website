@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Guy Moore - Software Engineer
-email: guy.moore.normal@gmail.com
+email: guy@g1y.com
 description: >- # this means to ignore newlines until "baseurl:"
     I am a software engineer working for iFixit and Dozuki.
     Aside from software engineering, I also enjoy automated testing,
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MooreNormal
-github_username:  MooreGuy
+github_username: g1y 
 
 employment_title: Software Engineer
 employer_link: https://www.ifixit.com
