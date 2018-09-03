@@ -16,16 +16,17 @@
 title: Guy Moore - Software Engineer
 email: guy@g1y.com
 description: >- # this means to ignore newlines until "baseurl:"
-    I am a software engineer working for iFixit and Dozuki.
-    Aside from software engineering, I also enjoy automated testing,
-    devops, software architecture, and trolling people.
+    I am a software engineer working at TransUnion.
+    Aside from software engineering, I am also passionate
+    about automated testing, devops, software
+    architecture, and trolling people.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MooreNormal
 github_username: g1y 
 
-employment_title: Software Engineer
-employer_link: https://www.ifixit.com
+business_title: Software Engineer
+business_link: https://www.transunion.com/ 
 my_name: Guy Moore
 
 # Build settings

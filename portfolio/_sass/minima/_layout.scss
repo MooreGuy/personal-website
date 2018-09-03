@@ -33,25 +33,15 @@
 		margin: 0 40px 0 40px;
     }
 
-}
+    ul {
+	list-style: none;
 
-.home {
-	ul {
-		list-style: none;
-
-		justify-content: center;
-		display: flex;
-	}
-
-    .links a {
-        color: $text-color;
-		text-decoration: none;
-		font-family: $base-font-family, cursive;
-		
+	justify-content: center;
+	display: flex;
     }
 
     li {
-        margin: 50px 50px 50px 50px;
+	margin: 50px 50px 50px 50px;
 
 		.line {
 			width: 10px;
@@ -63,6 +53,13 @@
 			width: 50px;
 			transition: right 0.7s ease-in-out,width 0.7s ease-in-out;	
 		}
+    }
+
+    .links a {
+	color: $text-color;
+		text-decoration: none;
+		font-family: $base-font-family, cursive;
+		
     }
 
 }
