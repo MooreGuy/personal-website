@@ -31,8 +31,9 @@ services:
         condition: on-failure
 
   certbot:
-    image: certbot/certbot
-    command: certbot certonly --standalone --preferred-challenges http -d map.g1y.io -d g1y.io
+    build:
+      context: ./certbot
+      dockerfile: ./certbot/Dockerfile
     volumes:
       - /etc/letsencrypt/live/map.g1y.io/fullchain.pem; # ssl_certificate managed by Certbot
       - /etc/letsencrypt/live/map.g1y.io/privkey.pem; # ssl_certificate_key managed by Certbot
