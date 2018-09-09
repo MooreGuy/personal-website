@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  site:
+  build-server:
     command: jekyll serve
     image: jekyll/jekyll:latest
     volumes:
@@ -11,14 +11,33 @@ services:
       - 4000:4000
       - 35729:35729
       - 3000:3000
+
   site:
     image: nginx
     volumes:
       - /root/personal-website/portfolio/_site:/usr/share/nginx/html:z
+      - /etc/letsencrypt/live/map.g1y.io/fullchain.pem; # ssl_certificate managed by Certbot
+      - /etc/letsencrypt/live/map.g1y.io/privkey.pem; # ssl_certificate_key managed by Certbot
     ports:
       - 80:80
+      - 443:443
     deploy:
       replicas: 5
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+
+  certbot:
+    image: certbot/certbot
+    command: certbot certonly --standalone --preferred-challenges http -d map.g1y.io -d g1y.io
+    volumes:
+      - /etc/letsencrypt/live/map.g1y.io/fullchain.pem; # ssl_certificate managed by Certbot
+      - /etc/letsencrypt/live/map.g1y.io/privkey.pem; # ssl_certificate_key managed by Certbot
+    deploy:
+      replicas: 1
       resources:
         limits:
           cpus: "0.1"
